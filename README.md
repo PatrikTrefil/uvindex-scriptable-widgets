@@ -5,8 +5,10 @@ You can find both home screen and lock screen widgets for
 
 ## Screenshots
 
-![Home screen widget](./screenshots/home-screen.png)
-![Lock screen widget](./screenshots/lock-screen.png)
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="./screenshots/home-screen.PNG" alt="Home screen widget" width=200 />
+  <img src="./screenshots/lock-screen.PNG" alt="Lock screen widget" width=200 />
+</div>
 
 ## Installation
 
