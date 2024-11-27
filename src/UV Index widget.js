@@ -8,16 +8,16 @@ function createWidget(uvIndexData) {
   const widget = new ListWidget();
   widget.setPadding(8, 16, 16, 0);
 
-  const titleText = widget.addText("UV Index ☀️");
+  const titleText = widget.addText("UV Index️");
   titleText.font = Font.boldSystemFont(16);
-  titleText.textColor = Color.white();
+  titleText.textColor = Color.black();
 
   widget.addSpacer(0);
 
   // Add current UV index
   const currentUVIndexText = widget.addText(uvIndexData.currentUVIndex ?? "-");
   currentUVIndexText.font = Font.systemFont(36);
-  currentUVIndexText.textColor = Color.white();
+  currentUVIndexText.textColor = Color.black();
 
   widget.addSpacer(30);
 
@@ -41,11 +41,11 @@ function createWidget(uvIndexData) {
     );
   }
   maxUVIndexText.font = Font.systemFont(14);
-  maxUVIndexText.textColor = Color.white();
+  maxUVIndexText.textColor = Color.black();
   maxUVIndexTimeText.font = Font.systemFont(12);
-  maxUVIndexTimeText.textColor = Color.white();
+  maxUVIndexTimeText.textColor = Color.black();
 
-  widget.backgroundColor = new Color("#ff8a1c");
+  widget.backgroundColor = new Color("#ffa700");
 
   return widget;
 }
